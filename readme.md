@@ -14,7 +14,7 @@ I've started this app due my own needs and to learn more about Terra's ecosystem
 
 ## How it works
 1. It will query Anchor smart contracts checking LTV (Loan-to-Value);
-2. If the LTV is grater than `trigger_at_percent` it will trigger a repay action.
+2. If the LTV is greater than `trigger_at_percent` it will trigger a repay action.
 3. If the amount required to repay (`target_percent`) is in the wallet, it will be used and loan will repay back to `target_percent` mark.
 4. If not, it will withdraw from `aUST` (Anchor deposit).
 5. The script **will NOT** sell any asset to pay loan.
